@@ -28,6 +28,9 @@
       nav {
         background-color: #599664;
       }
+      .test {
+        color: #bad9bd
+      }
       nav ul {
         list-style-type: none;
         margin: 0;
@@ -44,17 +47,20 @@
         padding: 14px 16px;
         text-decoration: none;
       }
-      nav li a:hover {
-        background-color: #4d7555;
+      a {
+        transition: transform 0.2s ease;
       }
-
+      a:hover {
+        transform: scale(1.1);
+        color: #c3e6c6;
+      }
     </style>
   </head>
   <body>
     <nav>
       <ul>
         <!-- tabs for the thing -->
-        <li><a href="">Home</a></li>
+        <li><a class="test" href="">Home</a></li>
         <li><a href="pages/about.html">About</a></li>
         <li><a href="pages/reference.html">Reference</a></li>
       </ul>

@@ -48,9 +48,12 @@
         padding: 14px 16px;
         text-decoration: none;
       }
-      nav li a:hover {
-        /* changes the color when mouse hovers over it */
-        background-color: #4d7555;
+      a {
+        transition: transform 0.2s ease;
+      }
+      a:hover {
+        transform: scale(1.1)
+        color: #c3e6c6;
       }
       .images-container {
         /* creates a container for images that centers them */
@@ -79,6 +82,9 @@
         transform: scale(1.05);
           /* scales the text up to 125% when hovered over */
       }
+      .test {
+        color: #bad9bd
+      }
       /* these make the links get bigger and underlined when hovering */
       .me {
         transition: transform 0.3s ease;
@@ -105,7 +111,7 @@
       <ul>
         <!-- tabs for the thing -->
         <li><a href="/index.html">Home</a></li>
-        <li><a href="">About</a></li>
+        <li><a class="test" href="">About</a></li>
         <li><a href="/pages/reference.html">Reference</a></li>
       </ul>
     </nav>

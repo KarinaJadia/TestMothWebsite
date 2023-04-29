@@ -17,6 +17,9 @@
         margin: 20px
           /* adds a margin of 20px */
       }
+      .test {
+        color: #bad9bd
+      }
       p {
         font-family: Lucida , Helvetica, sans-serif;
           /* sets the font for the p element to Arial (same as the body) */
@@ -48,9 +51,12 @@
         padding: 14px 16px;
         text-decoration: none;
       }
-      nav li a:hover {
-        /* changes the color when mouse hovers over it */
-        background-color: #4d7555;
+      a {
+        transition: transform 0.2s ease;
+      }
+      a:hover {
+        transform: scale(1.1);
+        color: #c3e6c6;
       }
     </style>
   </head>
@@ -60,7 +66,7 @@
         <!-- tabs for the thing -->
         <li><a href="/index.html">Home</a></li>
         <li><a href="/pages/about.html">About</a></li>
-        <li><a href="">Reference</a></li>
+        <li><a class="test" href="">Reference</a></li>
       </ul>
     </nav>
     <h1>Reference</h1>
