@@ -59,7 +59,7 @@
       }
       .me, .moth, .wawa {
         /* keeps all the images 10px away from each other */
-        margin: 10px;
+        margin: 30px;
       }
       .buttons {
         /* creates a container for images that centers them */
@@ -77,6 +77,24 @@
         transform: scale(1.25);
           /* scales the text up to 125% when hovered over */
       }
+      .me {
+        transition: transform 0.3s ease;
+      }
+      .me:hover {
+        transform: scale(1.15);
+      }
+      .moth {
+        transition: transform 0.3s ease;
+      }
+      .moth:hover {
+        transform: scale(1.15);
+      }
+      .wawa {
+        transition: transform 0.3s ease;
+      }
+      .wawa:hover {
+        transform: scale(1.15);
+      }
     </style>
   </head>
   <body>
@@ -85,11 +103,12 @@
         <!-- tabs for the thing -->
         <li><a href="/index.html">Home</a></li>
         <li><a href="">About</a></li>
+        <li><a href="/pages/reference.html">Reference</a></li>
       </ul>
     </nav>
     <h1>About Me</h1>
       <!-- h for header -->
-    <p>My name is Karina Jadia and I am a computer science engineering student. This is a fun random website that I threw together so I could try to learn HTML and CSS. I also really like moths (and bugs in general but mostly moths), hence the theme. Hopefully this website will give me the experience to make better, fancier, less ugly, cooler websites in the future!</p>
+    <p>My name is Karina Jadia and I am a computer science engineering student. This is a fun random website that I threw together so I could try to learn HTML and CSS. I also really like moths (and bugs in general but mostly moths), hence the theme. Hopefully this website will give me the experience to make better, fancier, less ugly, cooler websites in the future! Also, note the way the images get larger when you hover over them. That took a painfully long time to figure out.</p>
       <!-- p for paragraph -->
     <div class="images-container">
        <!-- the container slide --> 
@@ -98,9 +117,9 @@
       <img src="wawa.jpeg" class="wawa" height="300">
         <!-- puts the pictures in the about me slide -->
     </div>
-    <p>Those are some pictures of me! I had to figure out how to make a container class in CSS and HTML so that all the pictures would be centered and next to each other so I hope you appreciate that. It's actually really annoying how much work goes into a website! It doesn't help that HTML and CSS (but especially HTML) are so ugly! I used to hate on Python and only love Java, but Python is so much better than whatever this is.</p>
-    <p>Also I chose the second picture because it is of me with a Luna Moth clip so that you know I'm serious about my love for moths. I also chose the third picture so that you know that I like Wawa. I love Dunkin too (which I kind of had no choice, Dunkin is literally Connecticut culture) but Wawa was my first love and I will never forget it. Or Ron's Original Bar & Grille. Or Taco Maya. I will probably never see them again but they will always have a place in my heart for making the best lasagne and tacos (in America) respectively.</p>
-    <p>As for moths, my favorite moth is the Luna Moth because it is so gorgeous for no reason. I love all moths, but silk moths are my favorite moth family because they're all so pretty! Why moths? I don't really know, I just think they're neat. I've always liked bugs, especially winged bugs. Moths always felt like the underdogs of the bug world. Butterflies are like roses; everyone know and recognizes their beauty while moths are like buttercups; everyone knows what they are but they are criminally underrated. I think moths deserve as much love as butterflies, which is why I chose them to hyperfixate on.</p>
+    <p>Those are some pictures of me! I had to figure out how to make a container class in CSS and HTML so that all the pictures would be centered and next to each other so I hope you appreciate that. It's actually really annoying how much work goes into a website. It doesn't help that HTML and CSS (but especially HTML) are so awful. I used to hate on Python and only love Java, but Python is so much better than whatever this is.</p>
+    <p>Also I chose the second picture because it is of me with a Luna Moth clip so that you know I'm serious about my love for moths. I also chose the third picture so that you know that I like Wawa. I love Dunkin too (though I kind of had no choice, Dunkin is basically Connecticut culture) but Wawa was my first love and I will never forget it. Or Ron's Original Bar & Grille. Or Taco Maya. I will probably never see them again but they will always have a place in my heart for making the best lasagna and tacos (in America) respectively.</p>
+    <p>As for moths, my favorite moth is the Luna Moth because it is so gorgeous for no reason. I love all moths, but silk moths are my favorite moth family because they're all so gorgeous! Why moths? I don't really know, I just think they're neat. I've always liked bugs, especially winged bugs. Moths always felt like the underdogs of the bug world. Butterflies are like roses; everyone know and recognizes their beauty while moths are like buttercups; everyone knows what they are but they are criminally underrated. I think moths deserve as much love as butterflies, which is why I chose them to hyperfixate on.</p>
     <p>to learn more about moths, visit these pages (I made another container class to format this bar so you better like it):</p>
     <div class="buttons">
        <!-- the container slide --> 
