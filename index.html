@@ -47,12 +47,24 @@
         padding: 14px 16px;
         text-decoration: none;
       }
+      .about-container {
+        margin: 20px;
+        /* creates a container for stuff that centers them */
+        display: flex;
+        justify-content: center;
+      }
       a {
         transition: transform 0.2s ease;
       }
       a:hover {
         transform: scale(1.1);
         color: #c3e6c6;
+      }
+      .luna {
+        transition: transform 0.2s ease;
+      }
+      .luna:hover {
+        transform: scale(1.05);
       }
     </style>
   </head>
@@ -68,7 +80,13 @@
     <h1>Home</h1>
       <!-- h for header -->
     <p>Welcome to my website! I'm just testing stuff out which is why it looks like a homemade early 2000s website. I'm not exactly sure what this website is for yet, but I think it will just be me talking about the moths I encounter in my backyard this summer and learning how to code along the way.</p>
-    <p>This website is best viewed on a laptop. I added a few little things that happen only when your mouse hovers over a link or image, so there is no difference in functionality but you just don't get all the fun features on mobile.</p>
+    <p>This website is best viewed on a laptop (specifically 2560x1600 because I made all the elements look good on my laptop display specifically). I added a few little things that happen only when your mouse hovers over a link or image, so there is no difference in functionality but you just don't get all the fun features on mobile.</p>
       <!-- p for paragraph -->
+    <div class="about-container">
+      <img src="https://static.inaturalist.org/photos/75856962/medium.jpg" class="luna" height=350px>
+      <p>This is a Luna moth (image from iNaturalist). Finding a Luna moth is the main goal of my summer, and as a result is the main focus of this website. I will be photographing and cataloging all the moths I encounter but the main moth I want to see is the Luna. Luna moths are typically found in Connecticut from May to July, so this is the best time to look for them, but they have a lifespan of a week so I really only have one week to find them. They are attracted to lights at night, so I will be traveling with portable floodlights in my backyard every night<br><br>
+        Also, while you are here, Luna moths are wild silk moths. Wild silk moths have declined in numbers since the 1960's due to habitat destruction and increased use of bright vapor lights that disrupt mating. Luna moths aren't listed as threatened, but they are considered rare since they only live for one week and thus are really hard to spot. However, in my opinion just because they are harder to track doesn't mean they aren't endangered if literally all other wild silk moth populations are dwindling. Even if they are not endangered, they are on track to becoming endangered at the rate we are destroying their habitat and upending their lives.<br><br>
+      Here are some fun facts! Luna moths are often used as symbols of transformation and spiritual growth because of their life cycle, which involves metamorphosis from a caterpillar to a beautiful moth. They also do not have functional mouthparts as adults and do not feed. They rely on stored energy reserves from their caterpillar stage to survive, so their only goal as adults is to basically reproduce, then they die. It is quite unfortunate since they are so gorgeous, but I'm glad they exist nevertheless.</p>
+    </div>
   </body>
 </html>
